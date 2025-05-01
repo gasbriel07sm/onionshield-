@@ -195,7 +195,7 @@ body {
 
 /* HERO com imagem de fundo */
 .bg-hero {
-  background: url("simbolos/as.jpg") no-repeat center center;
+  background: url("./simbolos/as.jpg") no-repeat center center;
   background-size: 100% auto;         /* Largura total, altura proporcional */
   background-repeat: no-repeat;
   background-position: center top;    /* Alinha no topo */
