@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - OnionShield</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="cadastro.css">
+  <link rel="stylesheet" href="../home/style.css"> <!-- Referência ao estilo da home -->
+</head>
+<body>
+ <!-- Menu de navegação -->
+ <header class="header">
+  <div class="container mx-auto flex justify-between items-center">
+    <div class="left flex items-center">
+      <img src="../home/simbolos/logo branca.png" alt="Logo OnionShield" class="logo">
+      <span class="brand ml-2 font-bold text-xl">OnionShield</span>
+    </div>
+    <nav class="center-menu">
+      <ul class="flex">
+        <a href="../index.html">Home</a>
+        <a href="../informacoes/informacoes.html">Informações</a>
+        <a href="../questionarios/questionarios.html">Questionário</a>
+        <a href="../quem-somos/quem-somos.html">Quem somos</a>
+        <a href="../sobre/sobre.html">Sobre</a>
+      </ul>
+    </nav>
+    <div class="right">
+      <a href="../cadastro/cadastro.html" class="signup bg-blue-500 text-white px-4 py-2 rounded">Cadastre-se</a>
+    </div>
+  </div>
+</header>
+
+<!-- Conteúdo principal -->
+<main>
+  <!-- Formulário -->
+  <form action="">
+    <h1 class="text-3xl font-bold text-white">Cadastre-se</h1>
+    <div class="mb-4">
+      <label for="name" class="block text-sm font-bold mb-2 text-white">Nome:</label>
+      <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+    </div>
+    <div class="mb-4">
+      <label for="email" class="block text-sm font-bold mb-2 text-white">E-mail:</label>
+      <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+    </div>
+    <div class="mb-4">
+      <label for="password" class="block text-sm font-bold mb-2 text-white">Senha:</label>
+      <input type="password" id="password" name="password" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+    </div>
+    <div class="mb-4">
+      <label for="birthdate" class="block text-sm font-bold mb-2 text-white">Data de Nascimento:</label>
+      <input type="date" id="birthdate" name="birthdate" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+    </div>
+    <button type="submit" class="w-full bg-[#4569AD] text-white py-2 px-4 rounded-lg hover:bg-blue-600">Cadastrar</button>
+  </form>
+</main>
+
+<!-- Footer -->
+<footer class="footer bg-black text-white py-8">
+  <div class="container mx-auto flex flex-col items-center">
+    <p>&copy; 2025 OnionShield. Todos os direitos reservados.</p>
+    <p>Feito pelos integrantes: Gabriel Miranda, Gabriel Carvalho, Gabriel Sousa, Maicon, Luiz Gustavo, Sávio, Willian</p>
+  </div>
+</footer>
+</body>
+</html>

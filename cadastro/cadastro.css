@@ -1,0 +1,28 @@
+   /* Estilo para o fundo da página */
+   body {
+    background: url('./cadastro.jpg') no-repeat center top;
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a tela */
+  }
+
+  /* Centralização do formulário */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Altura total da página menos o header */
+    padding: 2rem;
+  }
+
+  form {
+    background-color: #001D3F; /* Cor de fundo do formulário */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limita a largura do formulário */
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
