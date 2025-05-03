@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionário 4 - Tipos de Segurança - OnionShield</title> <!-- Título atualizado -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../home/style.css">
+  <link rel="stylesheet" href="quest.css"> <!-- Mantendo referência ao CSS do questionário -->
+</head>
+<body>
+  <!-- Menu de navegação (Igual aos anteriores) -->
+  <header class="header">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="left flex items-center">
+        <img src="../home/simbolos/logo branca.png" alt="Logo OnionShield" class="logo">
+        <span class="brand ml-2 font-bold text-xl">OnionShield</span>
+      </div>
+      <nav class="center-menu">
+        <ul class="flex">
+          <a href="/index.html">Home</a>
+          <a href="../informacoes/informacoes.html">Informações</a>
+          <a href="../questionarios/questionarios.html">Questionário</a>
+          <a href="../quem-somos/quem-somos.html">Quem somos</a>
+          <a href="../sobre/sobre.html">Sobre</a>
+        </ul>
+      </nav>
+      <div class="right">
+        <a href="../cadastro/cadastro.html" class="signup bg-blue-500 text-white px-4 py-2 rounded">Cadastre-se</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="formcontainer">
+      <h1 class="titulo">Questionário 4 - Tipos de Segurança</h1> <!-- Título do H1 atualizado -->
+      <!-- Informações do usuário (Igual aos anteriores) -->
+      <div class="user-info">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+          <label for="profissao">Profissão:</label>
+          <input type="text" id="profissao" name="profissao">
+        </div>
+        <div class="full-width">
+          <label for="data-nascimento">Data de Nascimento:</label>
+          <input type="date" id="data-nascimento" name="data-nascimento">
+        </div>
+      </div>
+
+      <form id="quiz-form">
+        <div class="questions">
+          <!-- Perguntas do Questionário 3 -->
+          <div class="question">
+            <p>1. A proteção de edifícios, salas de servidores e equipamentos contra acesso físico não autorizado pertence a qual tipo de segurança?</p>
+            <label><input type="radio" name="q1" value="a" required>
+              Segurança de Rede
+            </label>
+            <label><input type="radio" name="q1" value="b">
+              Segurança de Aplicação
+            </label>
+            <label><input type="radio" name="q1" value="c">
+              Segurança Física
+            </label>
+            <label><input type="radio" name="q1" value="d">
+              Segurança na Nuvem
+            </label>
+          </div>
+
+          <div class="question">
+            <p>2. Qual tipo de segurança se concentra em proteger a infraestrutura de rede (roteadores, switches, firewalls) e o tráfego de dados?</p>
+            <label><input type="radio" name="q2" value="a" required>
+              Segurança Física
+            </label>
+            <label><input type="radio" name="q2" value="b">
+              Segurança de Rede
+            </label>
+            <label><input type="radio" name="q2" value="c">
+              Segurança de Endpoint
+            </label>
+            <label><input type="radio" name="q2" value="d">
+              Segurança Operacional
+            </label>
+          </div>
+
+          <div class="question">
+            <p>3. A instalação de software antivírus em computadores e laptops é uma medida de qual tipo de segurança?</p>
+            <label><input type="radio" name="q3" value="a" required>
+              Segurança de Rede
+            </label>
+            <label><input type="radio" name="q3" value="b">
+              Segurança Física
+            </label>
+            <label><input type="radio" name="q3" value="c">
+              Segurança de Endpoint (ou Segurança de Host)
+            </label>
+            <label><input type="radio" name="q3" value="d">
+              Segurança de Banco de Dados
+            </label>
+          </div>
+
+          <div class="question">
+            <p>4. Qual tipo de segurança lida com a proteção de dados contra acesso não autorizado, corrupção ou perda, independentemente de onde estejam armazenados?</p>
+            <label><input type="radio" name="q4" value="a" required>
+              Segurança de Aplicação
+            </label>
+            <label><input type="radio" name="q4" value="b">
+              Segurança de Dados
+            </label>
+            <label><input type="radio" name="q4" value="c">
+              Segurança Física
+            </label>
+            <label><input type="radio" name="q4" value="d">
+              Segurança Operacional
+            </label>
+          </div>
+
+          <div class="question">
+            <p>5. Proteger um aplicativo web contra ataques como SQL Injection e Cross-Site Scripting (XSS) é o foco de qual tipo de segurança?</p>
+            <label><input type="radio" name="q5" value="a" required>
+              Segurança de Rede
+            </label>
+            <label><input type="radio" name="q5" value="b">
+              Segurança de Endpoint
+            </label>
+            <label><input type="radio" name="q5" value="c">
+              Segurança de Aplicação
+            </label>
+            <label><input type="radio" name="q5" value="d">
+              Segurança Física
+            </label>
+          </div>
+
+          <div class="question">
+            <p>6. A definição de políticas e procedimentos para o manuseio seguro de informações, gerenciamento de mudanças e resposta a incidentes faz parte de qual tipo de segurança?</p>
+            <label><input type="radio" name="q6" value="a" required>
+              Segurança Física
+            </label>
+            <label><input type="radio" name="q6" value="b">
+              Segurança de Rede
+            </label>
+            <label><input type="radio" name="q6" value="c">
+              Segurança Operacional (ou Segurança de Processos)
+            </label>
+            <label><input type="radio" name="q6" value="d">
+              Segurança de Hardware
+            </label>
+          </div>
+
+          <div class="question">
+            <p>7. Qual tipo de segurança aborda os desafios específicos de proteger dados, aplicações e infraestrutura hospedados em provedores como AWS, Azure ou Google Cloud?</p>
+            <label><input type="radio" name="q7" value="a" required>
+              Segurança de Endpoint
+            </label>
+            <label><input type="radio" name="q7" value="b">
+              Segurança na Nuvem
+            </label>
+            <label><input type="radio" name="q7" value="c">
+              Segurança de Comunicações
+            </label>
+            <label><input type="radio" name="q7" value="d">
+              Segurança Física
+            </label>
+          </div>
+
+          <div class="question">
+            <p>8. A segurança que se preocupa em proteger dispositivos como smartphones e tablets conectados à rede corporativa é conhecida como:</p>
+            <label><input type="radio" name="q8" value="a" required>
+              Segurança de Banco de Dados
+            </label>
+            <label><input type="radio" name="q8" value="b">
+              Segurança de Gerenciamento de Dispositivos Móveis (MDM) ou Segurança Móvel
+            </label>
+            <label><input type="radio" name="q8" value="c">
+              Segurança de Virtualização
+            </label>
+            <label><input type="radio" name="q8" value="d">
+              Segurança Perimetral
+            </label>
+          </div>
+
+          <div class="question">
+            <p>9. Segmentar a rede corporativa em diferentes zonas (VLANs) com controles de acesso entre elas é uma prática de qual tipo de segurança?</p>
+            <label><input type="radio" name="q9" value="a" required>
+              Segurança Física
+            </label>
+            <label><input type="radio" name="q9" value="b">
+              Segurança de Aplicação
+            </label>
+            <label><input type="radio" name="q9" value="c">
+              Segurança de Rede
+            </label>
+            <label><input type="radio" name="q9" value="d">
+              Segurança de Dados
+            </label>
+          </div>
+
+          <div class="question">
+            <p>10. Qual a diferença principal entre Segurança de Rede e Segurança de Endpoint?</p>
+            <label><input type="radio" name="q10" value="a" required>
+              Segurança de Rede protege o tráfego, Segurança de Endpoint protege os dispositivos individuais.
+            </label>
+            <label><input type="radio" name="q10" value="b">
+              Segurança de Rede usa firewalls, Segurança de Endpoint usa antivírus.
+            </label>
+            <label><input type="radio" name="q10" value="c">
+              Segurança de Rede é para conexões externas, Segurança de Endpoint para internas.
+            </label>
+            <label><input type="radio" name="q10" value="d">
+              Não há diferença significativa, são termos intercambiáveis.
+            </label>
+          </div>
+
+          <div class="question">
+            <p>11. A implementação de Controles de Segurança Industrial (ICS) / SCADA, que protegem sistemas de automação e controle em infraestruturas críticas, se enquadra em qual área especializada?</p>
+            <label><input type="radio" name="q11" value="a" required>
+              Segurança de Aplicação Web
+            </label>
+            <label><input type="radio" name="q11" value="b">
+              Segurança de Tecnologia Operacional (OT Security)
+            </label>
+            <label><input type="radio" name="q11" value="c">
+              Segurança de Big Data
+            </label>
+            <label><input type="radio" name="q11" value="d">
+              Segurança Quântica
+            </label>
+          </div>
+
+          <div class="question">
+            <p>12. Como a "Segurança Centrada em Dados" (Data-Centric Security) difere da abordagem tradicional de segurança perimetral?</p>
+            <label><input type="radio" name="q12" value="a" required>
+              Foca exclusivamente na criptografia de dados em repouso.
+            </label>
+            <label><input type="radio" name="q12" value="b">
+              Ignora a segurança da rede e foca apenas nos endpoints.
+            </label>
+            <label><input type="radio" name="q12" value="c">
+              Prioriza a proteção dos dados em si (classificação, controle de acesso, DLP) onde quer que eles estejam, em vez de apenas proteger o perímetro da rede.
+            </label>
+            <label><input type="radio" name="q12" value="d">
+              É um sinônimo para segurança de banco de dados.
+            </label>
+          </div>
+
+          <div class="question">
+            <p>13. Dentro da Segurança Operacional, qual a importância do "Gerenciamento de Identidade e Acesso" (IAM - Identity and Access Management)?</p>
+            <label><input type="radio" name="q13" value="a" required>
+              Foca apenas na criação de senhas fortes para os usuários.
+            </label>
+            <label><input type="radio" name="q13" value="b">
+              É crucial para definir e gerenciar quem tem acesso a quais recursos (autenticação e autorização), aplicando o princípio do menor privilégio.
+            </label>
+            <label><input type="radio" name="q13" value="c">
+              Trata apenas da segurança física dos crachás de acesso.
+            </label>
+            <label><input type="radio" name="q13" value="d">
+              É responsável por monitorar o desempenho dos sistemas.
+            </label>
+          </div>
+
+          <div class="question">
+            <p>14. A "Segurança de Contêineres" (ex: Docker, Kubernetes) é um subconjunto de qual tipo mais amplo de segurança e quais desafios específicos ela aborda?</p>
+            <label><input type="radio" name="q14" value="a" required>
+              Subconjunto da Segurança Física; aborda o roubo de servidores.
+            </label>
+            <label><input type="radio" name="q14" value="b">
+              Subconjunto da Segurança de Rede; aborda a configuração de firewalls para contêineres.
+            </label>
+            <label><input type="radio" name="q14" value="c">
+              Subconjunto da Segurança de Aplicação/Nuvem/Endpoint; aborda a segurança da imagem do contêiner, o tempo de execução e a orquestração.
+            </label>
+            <label><input type="radio" name="q14" value="d">
+              Subconjunto da Segurança de Dados; aborda a criptografia dentro dos contêineres.
+            </label>
+          </div>
+
+          <div class="question">
+            <p>15. Qual o papel da "Inteligência de Ameaças" (Threat Intelligence) dentro de uma estratégia de segurança abrangente?</p>
+            <label><input type="radio" name="q15" value="a" required>
+              É o mesmo que um sistema SIEM.
+            </label>
+            <label><input type="radio" name="q15" value="b">
+              Refere-se apenas ao treinamento de conscientização dos usuários.
+            </label>
+            <label><input type="radio" name="q15" value="c">
+              Fornece informações contextualizadas sobre ameaças atuais (atores, TTPs, IoCs) para ajudar na tomada de decisões proativas de defesa e na resposta a incidentes.
+            </label>
+            <label><input type="radio" name="q15" value="d">
+              É um tipo de firewall de próxima geração.
+            </label>
+          </div>
+          <!-- Fim das perguntas do Questionário 3 -->
+        </section>
+        </div>
+        <!-- Botão de finalizar (Igual aos anteriores) -->
+        <button type="submit" class="submit-btn">Finalizar</button>
+      </form>
+    </div>
+ 
+
+  <!-- Footer (Igual aos anteriores) -->
+  <footer class="footer bg-black text-white py-8">
+    <div class="container mx-auto flex flex-col items-center">
+      <p>© 2025 OnionShield. Todos os direitos reservados.</p>
+      <p>Feito pelos integrantes: Gabriel Miranda, Gabriel Carvalho, Gabriel Sousa, Maicon, Luiz Gustavo, Sávio, Willian</p>
+    </div>
+  </footer>
+
+  <!-- Script JS específico para o Questionário 3 -->
+  <script src="quest3.js"></script>
+</body>
+</html>

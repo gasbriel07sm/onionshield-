@@ -1,0 +1,129 @@
+sector {
+    display: flex; /* Flexbox para centralizar conteúdo */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: calc(100vh - 50px); /* Garante que o setor ocupe a altura restante acima do footer */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+    flex: 1; /* Faz o conteúdo ocupar o espaço restante acima do footer */
+}
+
+body {
+    background-image: url('./fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    display: flex; /* Flexbox para organizar o layout */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    margin: 0; /* Remove margens padrão */
+    overflow: hidden; /* Remove o scroll da página */
+}
+
+.titulo {
+    font-size: 2rem; /* Tamanho da fonte maior */
+    font-weight: bold; /* Texto em negrito */
+    color: #FFFFFF; /* Cor do texto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 2rem; /* Espaço abaixo do título */
+    width: 100%; /* Garante que o título ocupe toda a largura */
+}
+
+.questionarios {
+    display: flex; /* Flexbox para centralizar os cards */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: center; /* Alinha os cards verticalmente */
+    gap: 1rem; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    width: 100%; /* Garante que os cards ocupem toda a largura disponível */
+}
+
+.questionario {
+    background-color: #4569AD; /* Cor de fundo dos cards */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+    padding: 1rem; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+    width: 200px; /* Largura ajustada dos cards */
+    height: 250px; /* Altura ajustada dos cards */
+    position: relative; /* Necessário para posicionar o botão */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o card */
+}
+
+
+.questionario:hover {
+    transform: translateY(-8px); /* Eleva o card ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+}
+
+.questionario .header {
+    height: 10px; /* Altura da borda superior */
+    background-color: #1E3A8A; /* Cor da borda superior */
+    border-radius: 12px 12px 0 0; /* Bordas arredondadas no topo */
+    width: 100%; /* Ocupa toda a largura do card */
+    position: absolute; /* Fixa no topo do card */
+    top: 0; /* Alinha no topo */
+    left: 0; /* Alinha à esquerda */
+}
+
+.questionario .title {
+    font-size: 1.2rem; /* Tamanho do título */
+    font-weight: bold; /* Texto em negrito */
+    color: #FFFFFF; /* Cor do texto */
+    margin-bottom: 0.5rem; /* Espaço abaixo do título */
+    text-align: center; /* Centraliza o título */
+}
+
+.questionario .theme {
+    font-size: 0.9rem; /* Tamanho do tema */
+    color: #FFFFFF; /* Cor do texto */
+    margin-bottom: 1rem; /* Espaço abaixo do tema */
+    text-align: center; /* Centraliza o tema */
+}
+
+
+.questionario .content {
+    margin-top: 20px; /* Espaço entre a borda superior e o conteúdo */
+    color: #FFFFFF; /* Cor do texto */
+    font-size: 1rem; /* Tamanho do texto */
+    display: flex; /* Flexbox para organizar o conteúdo */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: space-between; /* Distribui o conteúdo uniformemente */
+    height: calc(100% - 40px); /* Ajusta a altura do conteúdo */
+}
+
+
+.questionario button {
+    background-color: #FFFFFF; /* Fundo branco */
+    color: #4569AD; /* Texto azul */
+    border: 2px solid #1E3A8A; /* Borda azul escuro */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    align-self: center; /* Centraliza o botão horizontalmente */
+}
+
+.questionario button:hover {
+    background-color: #1E3A8A; /* Fundo azul escuro ao passar o mouse */
+    color: #FFFFFF; /* Texto branco */
+}
+
+.footer {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+    padding: 1rem 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    position: fixed; /* Define o footer como absoluto */
+    bottom: 0; /* Alinha o footer ao final da página */
+    left: 0; /* Garante que o footer fique alinhado à esquerda */
+}
+
+.footer p {
+    margin: 0.5rem 0; /* Espaçamento entre as linhas */
+    font-size: 0.8rem; /* Tamanho da fonte reduzido */
+    line-height: 1.5; /* Altura da linha */
+}

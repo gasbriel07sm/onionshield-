@@ -1,0 +1,168 @@
+html, body {
+  background-color: #101217;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: 'Inter', sans-serif;
+  background-image: url('./fundo-2.jpg'); /* Caminho para a imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Fixa o fundo ao rolar a página */
+  background-position: center; /* Centraliza a imagem */
+  color: #FFFFFF; /* Garante que o texto fique visível */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem 5rem; /* adiciona espaço no bottom para o footer */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.formcontainer {
+  background-color: #001D3F;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 700px;
+  color: #FFFFFF;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.user-info label {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.user-info input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #FFFFFF;
+  color: #001D3F;
+}
+
+.user-info .full-width {
+  grid-column: span 2;
+}
+
+.questions {
+  margin-bottom: 2rem;
+}
+
+.question {
+  margin-bottom: 1.5rem;
+}
+
+.question p {
+  font-weight: bold;
+  color: #60A5FA; 
+}
+
+.question label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.question input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 8px;
+  position: relative;
+}
+
+.question input[type="radio"]:checked {
+  background-color: #001D3F;
+}
+
+.question input[type="radio"]:checked::after {
+  content: "X";
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.submit-btn {
+  margin: 1rem auto 2rem; /* Margem superior, centralização horizontal e margem inferior */
+  padding: 0.8rem 1.5rem; /* Espaçamento interno */
+  background-color: #14366D; /* Cor de fundo */
+  color: #FFFFFF; /* Cor do texto */
+  border: none;
+  border-radius: 8px; /* Bordas arredondadas */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  max-width: 200px; /* Define o comprimento máximo do botão */
+  width: 100%; /* Garante que o botão respeite o max-width */
+  text-align: center; /* Centraliza o texto */
+}
+
+.submit-btn:hover {
+  background-color: #1d488f; /* Cor ao passar o mouse */
+}
+
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+  position: relative; /* tirado o fixed */
+  font-size: 0.8rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .user-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .formcontainer {
+    padding: 1rem;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .user-info input {
+    max-width: 100%;
+  }
+}
