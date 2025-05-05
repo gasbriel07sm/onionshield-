@@ -10,7 +10,7 @@ sector {
 }
 
 body {
-    background-image: url('./fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-image: url('./teste.jpg'); /* Caminho para a imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */

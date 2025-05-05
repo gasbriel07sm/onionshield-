@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   min-height: 100%;
   font-family: 'Inter', sans-serif;
-  background-image: url('./e1df89e7b68914def619aa846dd506f7.jpg'); /* Caminho para a imagem de fundo */
+  background-image: url('./teste.jpg'); /* Caminho para a imagem de fundo */
   background-size: cover; /* Faz a imagem cobrir todo o fundo */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-attachment: fixed; /* Fixa o fundo ao rolar a página */
