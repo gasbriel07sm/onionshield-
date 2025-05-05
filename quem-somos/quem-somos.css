@@ -1,0 +1,71 @@
+body {
+    background-image: url('./quemsomos.jpg'); /* Substitua pelo caminho correto da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* Fixa o fundo ao rolar a página */
+    background-position: center; /* Centraliza a imagem */
+    color: #FFFFFF; /* Garante que o texto fique visível */
+  }
+
+
+.quem-somos {
+    padding: 2rem 1rem;
+  }
+  
+  .integrante {
+    display: flex;
+    align-items: flex-start; /* Alinha a descrição ao topo da imagem */
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  
+  .foto-container {
+    display: flex;
+    flex-direction: column; /* Empilha as imagens verticalmente */
+    align-items: center; /* Centraliza as imagens horizontalmente */
+    gap: 1.5rem; /* Espaçamento entre as imagens */
+  }
+  
+  .foto {
+    width: 250px; /* Define uma largura fixa para as imagens */
+    height: 250px; /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  }
+  
+  .descricao {
+    width: 50%; /* Ajusta a largura da descrição */
+    background-color: #001D3F; /* Fundo azul escuro */
+    padding: 1.5rem;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .descricao h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #60A5FA; /* Azul claro para o nome */
+  }
+  
+  .descricao p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #FFFFFF; /* Texto branco */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .integrante {
+      flex-direction: column;
+      text-align: center;
+    }
+    .foto, .descricao {
+      width: 100%; /* Imagens e descrições ocupam 100% da largura em telas menores */
+    }
+  }

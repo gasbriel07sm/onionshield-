@@ -380,7 +380,7 @@ main{
 .text-section {
   margin-bottom: 0.5rem; /* Espaço entre o texto e os cards */
   text-align: left; /* Alinha o texto à esquerda */
-  padding-right:38rem; /* Adiciona recuo para alinhar mais à esquerda */
+  padding-right:58rem; /* Adiciona recuo para alinhar mais à esquerda */
 }
 
 .text-section span {
@@ -391,5 +391,7 @@ main{
 .text-section h2 {
   margin-bottom: 1rem; /* Espaço abaixo do título principal */
 }
+
+
 
 
