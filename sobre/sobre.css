@@ -1,0 +1,137 @@
+body {
+    background-image: url('./lateral.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Cor padrão do texto */
+    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-bottom: 6rem; /* Adiciona espaço extra para o footer */
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
+  }
+  
+  
+  
+  .sobre-content {
+    background-color: #FFFFFF; /* Fundo branco */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sobre-content h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Fonte maior para destaque */
+    font-weight: bold;
+    color: #FFFFFF; /* Letra branca */
+    background-color: rgba(20, 54, 109, 0.9); /* Fundo azul */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .sobre-content h2 {
+    text-align: center;
+    font-size: 2rem; /* Fonte maior para subtítulos */
+    background-color: rgba(20, 54, 109, 0.8); /* Fundo azulado */
+    color: #FFFFFF; /* Letra branca */
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sobre-content h3 {
+    font-size: 1.8rem; /* Fonte maior para destaque */
+    font-weight: bold;
+    color: #FFFFFF; /* Letra branca */
+    background-color: rgba(20, 54, 109, 0.6); /* Fundo azul transparente */
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .sobre-content p {
+    text-align: justify;
+    line-height: 1.8; /* Melhor espaçamento entre linhas */
+    font-size: 1.1rem; /* Texto maior */
+    margin-bottom: 1.5rem;
+  }
+  
+ul {
+    list-style-type: disc; /* Bolinhas pretas */
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem; /* Texto maior para os itens da lista */
+  }
+  
+  .foto-container {
+    text-align: justify;
+    margin: 2rem 0;
+  }
+  
+  .foto-container img {
+    width: 100%;
+    max-width: 700px; /* Tamanho maior para imagens grandes */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .foto-container p {
+    text-align: justify; /* Alinha o texto de forma justificada */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    font-size: 1.1rem; /* Ajusta o tamanho da fonte */
+    margin-bottom: 1rem; /* Adiciona espaçamento entre os parágrafos */
+  }
+
+  .foto-container-lo img{
+    width: 250px;
+  }
+
+  .foto-container img, .foto-container-lo img {
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    width: 100%; /* Ajusta a largura da imagem */
+    max-width: 700px; /* Define um tamanho máximo para imagens grandes */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  .foto-container-lo img {
+    max-width: 250px; /* Define um tamanho menor para logos */
+  }
+  
+  .foto-container p, .foto-container-lo p {
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    font-size: 1.1rem; /* Ajusta o tamanho da fonte */
+    margin-top: 1rem; /* Espaçamento entre a imagem e o texto */
+  }
+
+  
+  .footer {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0; /* Espaçamento entre as linhas */
+    font-size: 0.8rem; /* Tamanho da fonte reduzido */
+    line-height: 1.5; /* Altura da linha */
+  }
