@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Informações - OnionShield</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./informacoes.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../home/style.css"> <!-- Referência ao estilo da home -->
   
@@ -31,3 +32,365 @@
       </div>
     </div>
   </header>
+  <main class="container">
+    <div class="informacoes-content">
+      <h1>Informações Importantes</h1>
+      <p>Bem-vindo à seção de informações da OnionShield. Aqui você encontrará conteúdos detalhados sobre segurança da informação, boas práticas, e muito mais. Nosso objetivo é educar e conscientizar sobre a importância de proteger seus dados no mundo digital.</p>
+
+      <h2>1. Introdução à Segurança da Informação</h2>
+      <p>A Segurança da Informação (SI) transcende a mera proteção de computadores; ela é uma disciplina de gerenciamento de riscos focada em proteger o valor da informação, independentemente de onde ela resida (digitalmente, em papel, no conhecimento das pessoas). Em um mundo onde dados são um ativo crítico para indivíduos, empresas e governos, a SI visa garantir que esses dados não caiam em mãos erradas (Confidencialidade), não sejam alterados indevidamente (Integridade) e estejam acessíveis quando necessários (Disponibilidade).</p>
+
+      <h3>1.1 Conceitos Essenciais</h3>
+      <ul>
+        <li><strong>Segurança da Informação (SI):</strong> É a prática de defender informações contra uma vasta gama de ameaças, a fim de garantir a continuidade dos negócios, minimizar danos e maximizar o retorno sobre investimentos e oportunidades. Ela se baseia em preservar a confidencialidade, integridade e disponibilidade (tríade CIA), além de outros princípios como autenticidade e não repúdio. Não se limita à tecnologia, abrangendo pessoas, processos e a própria informação em seu ciclo de vida.</li>
+        <li><strong>Ativo:</strong> Qualquer coisa que tenha valor para a organização e, portanto, precise ser protegida. Isso inclui não apenas dados tangíveis (servidores, bancos de dados, laptops) e intangíveis (software, dados de clientes, propriedade intelectual, reputação da marca), mas também processos de negócios críticos e até mesmo a confiança dos stakeholders. A identificação e classificação dos ativos é o primeiro passo para uma SI eficaz.</li>
+        <li><strong>Ameaça:</strong> Qualquer evento ou circunstância com potencial para causar dano aos ativos de informação, como ataques cibernéticos, erros humanos ou desastres naturais. Podendo ser:</li>
+          <ul>
+            <li><strong>Intencionais: </strong>Ataques cibernéticos (malware, hacking, phishing), espionagem, sabotagem, roubo.</li>
+            <li><strong>Não Intencionais:</strong> Erros humanos (configuração incorreta, perda de dispositivo), falhas de software/hardware.</li>
+            <li><strong>Naturais:</strong> Incêndios, inundações, terremotos.</li>
+            <li><strong>Internas:</strong> Funcionários mal-intencionados ou negligentes.</li>
+            <li><strong>Externas: </strong>Hackers, criminosos cibernéticos, concorrentes.</li>
+          </ul>
+      </ul>
+
+      <h3>1.2 Funções da Segurança da Informação</h3>
+      <p>As funções da SI incluem:</p>
+      <ul>
+        <li><strong>Segurança de Dados:</strong> Foca na proteção direta dos dados em si, onde quer que estejam (em repouso, em trânsito, em uso), aplicando criptografia, mascaramento, controle de acesso e prevenção contra perda de dados (DLP).</li>
+        <li><strong>Segurança de Sistemas de Informação:</strong> Trata da proteção da infraestrutura tecnológica (redes, servidores, sistemas operacionais, bancos de dados) que processa e armazena a informação, definindo configurações seguras, gerenciando patches e monitorando a saúde dos sistemas.</li>
+        <li><strong>Arquitetura da Segurança:</strong> Envolve o design estratégico de sistemas seguros, definindo como os componentes de segurança se encaixam para criar uma defesa robusta e em camadas (defense-in-depth), alinhada aos objetivos de negócio e requisitos de conformidade.</li>
+        <li><strong>Engenharia da Segurança:</strong> Foca na construção, implementação e manutenção das soluções e controles de segurança definidos pela arquitetura, garantindo que funcionem corretamente e sejam resilientes.</li>
+        <li><strong>Gestão de Segurança de Sistemas:</strong> Abrange a operação contínua e o monitoramento da postura de segurança, gerenciando identidades e acessos, respondendo a incidentes, realizando auditorias e garantindo a aplicação das políticas.</li>
+      </ul>
+
+      <h3>1.3 Importância da Segurança da Informação</h3>
+      <p>A SI é crucial porque protege o core das operações modernas. Vazamentos de dados podem levar a perdas financeiras massivas (multas regulatórias como da LGPD/GDPR, custos de remediação, ações judiciais), danos irreparáveis à reputação (perda de confiança de clientes e parceiros), interrupção de negócios (ataques de ransomware podem paralisar operações por dias ou semanas) e perda de vantagem competitiva (roubo de propriedade intelectual). Em setores críticos (saúde, finanças, infraestrutura), falhas de segurança podem ter consequências ainda mais graves. Portanto, SI não é um custo, mas um investimento essencial para a sustentabilidade e o sucesso.
+    </p>
+
+      <h3>1.4 Benefícios da Segurança da Informação</h3>
+      <ul>
+        <li><strong>Continuidade de Negócios:</strong> Reduz a probabilidade e o impacto de incidentes, permitindo que a organização se recupere mais rapidamente e mantenha operações essenciais mesmo durante uma crise.</li>
+        <li><strong>Conformidade:</strong> Ajuda a atender exigências legais (LGPD, GDPR), setoriais (PCI-DSS para cartões de pagamento) e contratuais, evitando penalidades e demonstrando devida diligência.</li>
+        <li><strong>Economia de Custos:</strong>  Prevenir incidentes é geralmente muito mais barato do que remediar suas consequências. Além disso, uma boa SI pode otimizar processos e reduzir desperdícios.</li>
+        <li><strong>Proteção da Reputação:</strong> Demonstra responsabilidade e cuidado com os dados de clientes e parceiros, fortalecendo a confiança e a imagem da marca no mercado.</li>
+        <li><strong>Redução de Riscos:</strong> Uma abordagem proativa de SI identifica e mitiga vulnerabilidades antes que sejam exploradas, diminuindo a superfície de ataque e a probabilidade de incidentes.</li>
+      </ul>
+
+      <h3>1.5 Desafios da Segurança da Informação</h3>
+      <ul>
+        <li><strong>Complacência:</strong> Subestimar os riscos leva à estagnação. Achar que "isso não vai acontecer comigo" ou que as medidas atuais são suficientes leva à estagnação, enquanto os atacantes inovam constantemente.</li>
+        <li><strong>Complexidade:</strong> Ambientes de TI modernos são difíceis de proteger uniformemente. </li>
+        <li><strong>Evolução das Ameaças:</strong> Ataques estão se tornando mais sofisticados e automatizados. </li>
+        <li><strong>Escassez de Talentos:</strong> Falta de profissionais qualificados em segurança cibernética.</li>
+        <li><strong>Conexões Globais:</strong> Operar internacionalmente implica lidar com diferentes leis de privacidade, níveis variados de segurança em parceiros e ameaças transnacionais.</li>
+        <li><strong>Integração de Terceiros (Supply Chain Risk):</strong>Vulnerabilidades em fornecedores ou parceiros podem ser exploradas para atacar a organização principal, exigindo auditoria e gestão de risco de terceiros.</li>
+        <li><strong>Orçamento e Priorização:</strong> Justificar investimentos em SI e priorizar recursos limitados é um desafio constante.</li>
+      </ul>
+
+      <h3>1.6 Cenário no Brasil e no Mundo</h3>
+      <p>O cenário global e brasileiro demonstra uma escalada preocupante no volume, sofisticação e impacto dos ciberataques. O Brasil, como uma das maiores economias digitais, é um alvo frequente, especialmente para ransomware, fraudes financeiras (Pix) e phishing. O aumento nos números reflete não apenas mais ataques, mas também melhor detecção e relato. Setores como governo, finanças, saúde e varejo são particularmente visados. O alto custo projetado do cibercrime (US$ 8 trilhões em 2023) evidencia o impacto econômico devastador, superando o PIB de muitas nações. A tendência de crescimento de 15% ao ano indica que o problema só tende a piorar sem investimentos e conscientização adequados. A LGPD no Brasil impulsionou a preocupação com a SI, mas a maturidade das empresas ainda varia muito.</p>
+
+      <h2>2. Tipos de Ameaças Digitais</h2>
+      <p>As ameaças são os métodos e ferramentas utilizados por adversários (hackers, criminosos, insiders maliciosos) para explorar vulnerabilidades e comprometer a segurança. Compreender os diferentes tipos de ameaças é essencial para construir defesas eficazes.</p>
+
+      <h3>2.1 Malware</h3>
+      <p><strong>Definição e Intenção:</strong> Software criado especificamente para infiltrar, danificar ou obter acesso não autorizado a sistemas computacionais sem o consentimento do proprietário. O objetivo varia: roubo de dados, extorsão, espionagem, interrupção de serviços, controle remoto do dispositivo.</p>
+      <p><strong>Vetores de Infecção:</strong> Como o malware chega ao sistema: anexos de e-mail, links maliciosos, downloads de software pirata ou de fontes não confiáveis, dispositivos USB infectados, exploração de vulnerabilidades não corrigidas, sites comprometidos (drive-by downloads).</p>
+      <p><strong>Tipos Comuns:</strong></p>
+      <ul>
+        <li><strong>Vírus:</strong> Código que se anexa a programas legítimos e se replica quando o programa é executado.</li>
+        <li><strong>Worm:</strong> Similar ao vírus, mas se auto-replica e se espalha por redes sem intervenção humana.</li>
+        <li><strong>Trojan (Cavalo de Troia):</strong> Disfarçado de software útil, mas contém uma carga maliciosa oculta.</li>
+        <li><strong>Ransomware:</strong> Criptografa arquivos e exige resgate pela chave.</li>
+        <li><strong>Spyware:</strong> Coleta secretamente informações do usuário.</li>
+        <li><strong>Adware:</strong> Exibe anúncios indesejados, muitas vezes coletando dados de navegação.</li>
+        <li><strong>Botnet Malware:</strong> Transforma o dispositivo infectado em um "zumbi", controlado remotamente.</li>
+        <li><strong>Rootkit:</strong> Oculta a presença de outro malware no sistema.</li>
+        <li><strong>Keylogger:</strong> Registra as teclas digitadas pelo usuário.</li>
+        <li><strong>RAT (Remote Access Trojan):</strong> Permite ao atacante controlar remotamente o sistema infectado.</li>
+      </ul>
+
+      <h3>2.2 Engenharia Social de Ataques</h3>
+      <p><strong>Definição e Tática:</strong> Explora a psicologia humana para manipular indivíduos a divulgar informações confidenciais ou realizar ações que comprometam a segurança.</p>
+      <p><strong>Métodos Detalhados:</strong></p>
+      <ul>
+        <li><strong>Phishing:</strong> E-mails ou mensagens genéricas tentando enganar muitos usuários.</li>
+        <li><strong>Spear Phishing:</strong> Altamente direcionado a um indivíduo ou grupo específico.</li>
+        <li><strong>Whaling:</strong> Spear phishing focado em executivos de alto nível.</li>
+        <li><strong>Vishing:</strong> Engenharia social por telefone.</li>
+        <li><strong>Smishing:</strong> Phishing via mensagens de texto (SMS).</li>
+        <li><strong>Baiting:</strong> Deixar um dispositivo infectado (pen drive) em local público.</li>
+        <li><strong>Pretexting:</strong> Criar um cenário ou pretexto elaborado para obter informações.</li>
+        <li><strong>Tailgating/Piggybacking:</strong> Seguir alguém autorizado para entrar em uma área restrita fisicamente.</li>
+      </ul>
+
+      <h3>2.3 Ataques DoS e DDoS</h3>
+      <p><strong>Objetivo:</strong> Tornar um serviço indisponível para seus usuários legítimos, inundando-o com tráfego ou solicitações inúteis.</p>
+      <p><strong>Tipos de Ataques DDoS:</strong></p>
+      <ul>
+        <li><strong>Volumétricos:</strong> Sobrecarregam a largura de banda da rede.</li>
+        <li><strong>De Protocolo:</strong> Consomem recursos de servidores ou firewalls explorando protocolos de rede.</li>
+        <li><strong>De Camada de Aplicação:</strong> Miram em aplicações web específicas.</li>
+      </ul>
+
+      <h3>2.4 Explicando Alguns Ataques</h3>
+      <ul>
+        <li><strong>Spyware:</strong> Opera furtivamente em segundo plano, monitorando atividades como digitação e sites visitados.</li>
+        <li><strong>Ransomware:</strong> Evoluiu para incluir dupla extorsão, ameaçando vazar dados roubados.</li>
+        <li><strong>Cavalo de Troia:</strong> Disfarçado de software útil, mas contém cargas maliciosas.</li>
+        <li><strong>Criptojacking:</strong> Utiliza o poder de processamento da vítima para minerar criptomoedas.</li>
+        <li><strong>DDoS Attack:</strong> Usa redes de "zumbis" para sobrecarregar o alvo com tráfego massivo.</li>
+        <li><strong>Ataques Ransom, DoS (RDoS):</strong> Extorsão para prevenir ou parar um ataque DDoS.</li>
+        <li><strong>Phishing:</strong> Engana usuários com e-mails ou sites falsos para capturar credenciais.</li>
+      </ul>
+
+      <h2>3. Tipos de Segurança</h2>
+      <p>Os diferentes tipos de segurança têm objetivos e escopos distintos, mas complementares. Abaixo, detalhamos as principais categorias:</p>
+  
+      <h3>3.1 Segurança da Informação (InfoSec)</h3>
+      <p>A Segurança da Informação é o guarda-chuva mais amplo. Preocupa-se com a proteção da informação em qualquer formato (digital, papel, falada) e em qualquer lugar. Abrange políticas, conscientização, segurança física, controles técnicos, conformidade legal e gerenciamento de riscos relacionados à informação. Seu objetivo é proteger o valor da informação para a organização.</p>
+  
+      <h3>3.2 Segurança Cibernética (Cybersecurity)</h3>
+      <p>A Segurança Cibernética é um subconjunto da InfoSec, focado especificamente na proteção de ativos no domínio digital ou ciberespaço. Lida com a defesa contra ameaças que se originam ou se propagam por redes de computadores (internet, redes internas). Protege hardware, software, redes e dados digitais contra acesso não autorizado, ataques e danos originados no ciberespaço.</p>
+  
+      <h3>3.3 Segurança de Dados (Data Security)</h3>
+      <p>A Segurança de Dados é ainda mais específica, focando na proteção dos dados em si, independentemente de onde estejam armazenados ou como são processados. Envolve tecnologias e processos como:</p>
+      <ul>
+        <li><strong>Criptografia:</strong> Garante que os dados sejam ilegíveis para quem não possui a chave de acesso.</li>
+        <li><strong>Tokenização:</strong> Substitui dados sensíveis por identificadores únicos (tokens).</li>
+        <li><strong>Mascaramento:</strong> Oculta dados sensíveis em ambientes de teste ou desenvolvimento.</li>
+        <li><strong>Controle de Acesso Granular:</strong> Restringe o acesso aos dados com base em permissões específicas.</li>
+        <li><strong>Backup e Recuperação:</strong> Garante que os dados possam ser restaurados em caso de perda ou corrupção.</li>
+        <li><strong>Prevenção de Perda de Dados (DLP):</strong> Impede que dados sensíveis sejam compartilhados ou vazados indevidamente.</li>
+      </ul>
+      <p>Essas práticas garantem a confidencialidade, integridade e disponibilidade dos dados digitais ao longo de seu ciclo de vida. A Segurança de Dados pode ser vista como um componente fundamental tanto da InfoSec quanto da Cybersecurity.</p>
+
+      <h2>4. Princípios da Segurança da Informação</h2>
+      <p>Os princípios da segurança da informação são os objetivos fundamentais ou propriedades desejáveis que os programas de segurança buscam alcançar para proteger a informação. A Tríade CIA é a base, mas a complexidade moderna exige considerar outros princípios igualmente vitais.</p>
+  
+      <h3>4.1 Confidencialidade</h3>
+      <p><strong>Garantia:</strong> Assegura que a informação só seja acessível por entidades (pessoas, processos, sistemas) devidamente autorizadas. Previne a divulgação não intencional ou maliciosa.</p>
+      <p><strong>Mecanismos:</strong></p>
+      <ul>
+        <li>Criptografia (torna os dados ilegíveis sem a chave correta).</li>
+        <li>Controle de Acesso (listas de controle de acesso - ACLs, Role-Based Access Control - RBAC).</li>
+        <li>Classificação da Informação (definir níveis de sensibilidade).</li>
+        <li>Acordos de Confidencialidade (NDAs).</li>
+      </ul>
+      <p><strong>Exemplo:</strong> Apenas o departamento de RH pode acessar os salários dos funcionários.</p>
+  
+      <h3>4.2 Conformidade/Legalidade</h3>
+      <p><strong>Garantia:</strong> Assegura que as práticas de segurança da organização aderem às leis (ex: LGPD, GDPR), regulamentos (ex: Bacen para bancos), padrões setoriais (ex: PCI-DSS) e políticas internas.</p>
+      <p><strong>Importância:</strong> Evitar multas pesadas, sanções legais, danos à reputação e perda de licenças para operar. Demonstra governança e responsabilidade.</p>
+      <p><strong>Mecanismos:</strong></p>
+      <ul>
+        <li>Auditorias regulares.</li>
+        <li>Políticas claras.</li>
+        <li>Treinamento de funcionários.</li>
+        <li>Nomeação de um DPO (Data Protection Officer) quando aplicável.</li>
+      </ul>
+  
+      <h3>4.3 Integridade</h3>
+      <p><strong>Garantia:</strong> Mantém a exatidão, consistência e confiabilidade da informação, prevenindo alterações não autorizadas, acidentais ou maliciosas. Garante que os dados não foram corrompidos.</p>
+      <p><strong>Mecanismos:</strong></p>
+      <ul>
+        <li>Hashing (criar "impressões digitais" dos dados para detectar alterações).</li>
+        <li>Assinaturas Digitais (garantem origem e integridade).</li>
+        <li>Controle de Versões.</li>
+        <li>Logs de Auditoria (rastrear quem alterou o quê e quando).</li>
+        <li>Validação de Entrada de Dados.</li>
+      </ul>
+      <p><strong>Exemplo:</strong> O saldo da conta bancária exibido deve ser o saldo real, sem modificações indevidas.</p>
+  
+      <h3>4.4 Disponibilidade</h3>
+      <p><strong>Garantia:</strong> Assegura que os sistemas e as informações estejam operacionais e acessíveis para usuários autorizados quando necessário. Previne interrupções.</p>
+      <p><strong>Mecanismos:</strong></p>
+      <ul>
+        <li>Redundância de hardware (servidores, discos - RAID).</li>
+        <li>Links de rede redundantes.</li>
+        <li>Backups regulares e testados.</li>
+        <li>Planos de Recuperação de Desastres (DRP) e Continuidade de Negócios (BCP).</li>
+        <li>Proteção contra DDoS.</li>
+        <li>Monitoramento de performance.</li>
+      </ul>
+      <p><strong>Exemplo:</strong> O site de e-commerce deve estar online e funcional para os clientes realizarem compras.</p>
+  
+      <h3>4.5 Autenticidade</h3>
+      <p><strong>Garantia:</strong> Confirma que a informação é genuína e que a identidade declarada por um usuário, sistema ou remetente é verdadeira. Verifica a origem e a validade.</p>
+      <p><strong>Mecanismos:</strong></p>
+      <ul>
+        <li>Senhas.</li>
+        <li>Autenticação Multifator (MFA - algo que você sabe, tem e é).</li>
+        <li>Biometria.</li>
+        <li>Certificados Digitais (para sites e e-mails).</li>
+        <li>Assinaturas Digitais.</li>
+      </ul>
+      <p><strong>Exemplo:</strong> Verificar que um e-mail veio realmente do remetente indicado e não é um spoofing. Confirmar que o usuário que fez login é quem ele diz ser.</p>
+  
+      <h3>4.6 Irretratabilidade (Não Repúdio)</h3>
+      <p><strong>Garantia:</strong> Fornece prova incontestável de que uma determinada ação foi realizada por uma entidade específica, impedindo que ela negue posteriormente ter realizado a ação. Essencial para accountability e transações legais.</p>
+      <p><strong>Mecanismos:</strong></p>
+      <ul>
+        <li>Assinaturas Digitais (ligam criptograficamente uma ação a uma identidade verificada).</li>
+        <li>Logs de Auditoria detalhados e protegidos contra adulteração.</li>
+        <li>Timestamping (registro de data/hora confiável).</li>
+      </ul>
+      <p><strong>Exemplo:</strong> Um usuário não pode negar ter autorizado uma transferência bancária se a transação foi autenticada com MFA e assinada digitalmente.</p>
+
+      <h2>5. Programas e Políticas de Segurança</h2>
+    <p>Um programa de Segurança da Informação (SI) é uma estrutura formal e contínua que engloba as políticas, procedimentos, tecnologias e pessoas responsáveis por proteger os ativos de informação da organização. Não é um projeto único, mas um ciclo de melhoria contínua.</p>
+
+    <h3>5.1 Avaliação de Risco</h3>
+    <p>Processo sistemático para identificar ativos, ameaças que podem afetá-los, vulnerabilidades que as ameaças podem explorar, a probabilidade de ocorrência e o impacto potencial (financeiro, reputacional, operacional). O resultado orienta a alocação de recursos de segurança nas áreas de maior risco.</p>
+
+    <h3>5.2 Identificação de Vulnerabilidades</h3>
+    <p>Busca ativa por fraquezas. Inclui:</p>
+    <ul>
+      <li><strong>Vulnerability Scanning:</strong> Uso de ferramentas automatizadas para procurar falhas conhecidas em sistemas e redes.</li>
+      <li><strong>Penetration Testing (Pentest):</strong> Simulação de ataques controlados para identificar vulnerabilidades exploráveis que scanners podem perder.</li>
+      <li><strong>Code Review:</strong> Análise manual ou automatizada do código-fonte de aplicações para encontrar falhas de segurança.</li>
+      <li><strong>Configuration Audits:</strong> Verificar se os sistemas estão configurados de acordo com as melhores práticas de segurança.</li>
+    </ul>
+
+    <h3>5.3 Identificação de Ameaças</h3>
+    <p>Entender o "cenário de ameaças" relevante para a organização. Envolve monitorar fontes de inteligência de ameaças (feeds, relatórios), analisar tendências de ataques, entender as motivações e TTPs (Táticas, Técnicas e Procedimentos) dos adversários.</p>
+
+    <h3>5.4 Planejamento de Resposta a Incidentes (IRP)</h3>
+    <p>Um plano detalhado que define o que fazer quando um incidente de segurança ocorre. Deve incluir:</p>
+    <ul>
+      <li>Critérios para declaração de incidente.</li>
+      <li>Funções e responsabilidades (equipe CSIRT/CIRT).</li>
+      <li>Processos de comunicação (interna e externa).</li>
+      <li>Passos técnicos: Identificação, Contenção (isolar sistemas afetados), Erradicação (remover a causa raiz), Recuperação (restaurar sistemas), Pós-incidente (análise, lições aprendidas).</li>
+      <li>Requisitos legais e de notificação (ex: notificar ANPD em caso de violação de dados pessoais).</li>
+    </ul>
+
+    <h3>5.5 Programas de Segurança (Ferramentas e Técnicas Específicas)</h3>
+    <ul>
+      <li><strong>Criptografia:</strong> Essencial para confidencialidade e integridade. Usa algoritmos (ex: AES, RSA) para embaralhar dados, tornando-os inúteis sem a chave correta. Aplicada a dados em repouso, em trânsito e, às vezes, em uso.</li>
+      <li><strong>Data Loss Prevention (DLP):</strong> Soluções que monitoram dados sensíveis para detectar e prevenir sua saída não autorizada da organização.</li>
+      <li><strong>Detecção e Resposta de Endpoint (EDR):</strong> Vai além do antivírus tradicional, detectando ameaças avançadas e fornecendo ferramentas para investigação e resposta.</li>
+      <li><strong>Firewalls:</strong> Atuam como porteiros da rede, inspecionando o tráfego e permitindo ou bloqueando com base em regras. NGFW (Next-Generation Firewalls) adicionam inspeção profunda de pacotes e prevenção de intrusão.</li>
+      <li><strong>IDS/IPS:</strong> IDS (Sistema de Detecção de Intrusão) monitora passivamente a rede e alerta sobre atividades suspeitas. IPS (Sistema de Prevenção de Intrusão) pode bloquear ativamente ameaças detectadas.</li>
+      <li><strong>ISMS (Information Security Management System):</strong> Uma abordagem holística e baseada em risco para gerenciar a segurança. A ISO/IEC 27001 é o padrão internacional mais conhecido para ISMS.</li>
+      <li><strong>SIEM (Security Information and Event Management):</strong> Coleta logs de segurança de diversas fontes, correlaciona eventos para identificar padrões de ataque e fornece uma plataforma para análise e investigação forense.</li>
+      <li><strong>SOC (Security Operations Center):</strong> O "centro de comando" da segurança. Equipe dedicada que monitora o ambiente 24/7, investiga alertas e coordena a resposta a incidentes.</li>
+      <li><strong>Medidas de Autenticação Fortes:</strong> Combina múltiplos fatores para verificar a identidade, como senhas, tokens e biometria.</li>
+      <li><strong>Inteligência de Ameaça (Threat Intelligence):</strong> Informações contextuais e acionáveis sobre ameaças existentes ou emergentes, ajudando a priorizar defesas e detectar ataques mais rapidamente.</li>
+      <li><strong>UEBA (User and Entity Behavior Analytics):</strong> Usa machine learning para detectar desvios significativos no comportamento de usuários e dispositivos, indicando possíveis ameaças.</li>
+    </ul>
+    
+    <h2>6. Tipos de Soluções de Segurança Cibernética</h2>
+    <p>As soluções de segurança cibernética são categorias de produtos e serviços focados em proteger domínios tecnológicos específicos, cada um com seus desafios únicos. Abaixo, detalhamos as principais categorias:</p>
+
+    <h3>6.1 Segurança de Nuvem</h3>
+    <p>Aborda os riscos associados à computação em nuvem (IaaS, PaaS, SaaS). Inclui:</p>
+    <ul>
+      <li><strong>Gerenciamento de Identidade e Acesso (IAM) na Nuvem:</strong> Controle de quem pode acessar o quê.</li>
+      <li><strong>Segurança de Configuração (CSPM - Cloud Security Posture Management):</strong> Evitar configurações incorretas que expõem dados.</li>
+      <li><strong>Proteção de Cargas de Trabalho na Nuvem (CWPP - Cloud Workload Protection Platform):</strong> Segurança para VMs, contêineres e serverless.</li>
+      <li><strong>CASB (Cloud Access Security Broker):</strong> Visibilidade e controle sobre o uso de serviços SaaS.</li>
+      <li><strong>Criptografia de Dados na Nuvem:</strong> Proteção de dados armazenados e em trânsito.</li>
+    </ul>
+
+    <h3>6.2 Segurança de Rede</h3>
+    <p>Proteção da infraestrutura de comunicação. Inclui:</p>
+    <ul>
+      <li><strong>Firewalls (NGFW):</strong> Inspeção profunda de pacotes e prevenção de intrusão.</li>
+      <li><strong>VPNs (Virtual Private Networks):</strong> Para acesso remoto seguro e conexões site-to-site.</li>
+      <li><strong>IDS/IPS:</strong> Detecção e prevenção de intrusão.</li>
+      <li><strong>NAC (Network Access Control):</strong> Controlar quem e o quê pode se conectar à rede.</li>
+      <li><strong>Segmentação/Micro-segmentação:</strong> Dividir a rede em zonas para limitar o movimento lateral de atacantes.</li>
+      <li><strong>Segurança de DNS:</strong> Proteção contra ataques como DNS spoofing.</li>
+    </ul>
+
+    <h3>6.3 Segurança de Aplicação (AppSec)</h3>
+    <p>Integrar a segurança no ciclo de vida de desenvolvimento de software (DevSecOps). Inclui:</p>
+    <ul>
+      <li><strong>SAST (Static Application Security Testing):</strong> Análise do código-fonte.</li>
+      <li><strong>DAST (Dynamic Application Security Testing):</strong> Teste da aplicação em execução.</li>
+      <li><strong>IAST (Interactive Application Security Testing):</strong> Combinação de SAST/DAST.</li>
+      <li><strong>SCA (Software Composition Analysis):</strong> Verificar vulnerabilidades em bibliotecas de terceiros.</li>
+      <li><strong>WAF (Web Application Firewall):</strong> Proteger aplicações web contra ataques comuns (SQL Injection, XSS).</li>
+      <li><strong>Segurança de API:</strong> Proteção contra abusos e acessos não autorizados.</li>
+    </ul>
+
+    <h3>6.4 Segurança da Internet das Coisas (IoT Security)</h3>
+    <p>Desafios: grande número de dispositivos, muitas vezes com recursos limitados, senhas padrão e falta de atualizações. Soluções:</p>
+    <ul>
+      <li><strong>Descoberta e Inventário de Dispositivos:</strong> Identificar todos os dispositivos conectados.</li>
+      <li><strong>Segmentação de Rede:</strong> Isolar dispositivos IoT.</li>
+      <li><strong>Autenticação e Criptografia específicas para IoT:</strong> Garantir comunicações seguras.</li>
+      <li><strong>Monitoramento de Comportamento Anormal:</strong> Detectar atividades suspeitas.</li>
+      <li><strong>Gerenciamento de Patches e Firmware:</strong> Atualizar dispositivos regularmente.</li>
+    </ul>
+
+    <h3>6.5 Segurança de Endpoint</h3>
+    <p>Proteger os dispositivos onde os usuários trabalham e os dados residem. Inclui:</p>
+    <ul>
+      <li><strong>Antivírus/Anti-malware de Próxima Geração (NGAV):</strong> Proteção avançada contra ameaças.</li>
+      <li><strong>EDR (Endpoint Detection and Response):</strong> Detecção e resposta a ameaças avançadas.</li>
+      <li><strong>Firewall Pessoal:</strong> Proteção contra acessos não autorizados.</li>
+      <li><strong>Criptografia de Disco Completo:</strong> Proteção de dados em caso de perda ou roubo do dispositivo.</li>
+      <li><strong>Gerenciamento de Patches:</strong> Garantir que o software esteja atualizado.</li>
+      <li><strong>Controle de Aplicações e Dispositivos:</strong> Restringir o uso de aplicativos e dispositivos não autorizados.</li>
+    </ul>
+
+    <h3>6.6 Segurança Móvel</h3>
+    <p>Proteger smartphones e tablets usados para fins corporativos (BYOD ou corporativos). Inclui:</p>
+    <ul>
+      <li><strong>MDM (Mobile Device Management):</strong> Gerenciar o dispositivo (configurações, políticas, wipe remoto).</li>
+      <li><strong>MAM (Mobile Application Management):</strong> Gerenciar apenas os aplicativos corporativos.</li>
+      <li><strong>MTD (Mobile Threat Defense):</strong> Detectar malware móvel, redes Wi-Fi maliciosas e vulnerabilidades do sistema operacional.</li>
+      <li><strong>VPN Móvel:</strong> Garantir conexões seguras em redes públicas.</li>
+    </ul>
+
+    <h2>7. Objetivo do Site (Projeto Integrador)</h2>
+    <p>O projeto OnionShield tem como objetivo criar uma plataforma digital interativa e educativa, promovendo a cultura de segurança da informação na comunidade de Araxá. Abaixo, detalhamos os principais pilares do projeto:</p>
+
+    <h3>7.1 Plataforma Digital Interativa</h3>
+    <p>O site será acessível, de fácil navegação e visualmente agradável, otimizado para diferentes dispositivos (desktop e mobile). A interatividade será promovida através de:</p>
+    <ul>
+      <li>Quizzes interativos para testar o conhecimento dos usuários.</li>
+      <li>Simuladores simples de situações de risco cibernético.</li>
+      <li>Seções de perguntas e respostas para esclarecer dúvidas comuns.</li>
+    </ul>
+
+    <h3>7.2 Conteúdo Educativo Abrangente</h3>
+    <p>O portal oferecerá materiais claros e didáticos sobre segurança da informação, adaptados para diferentes níveis de conhecimento:</p>
+    <ul>
+      <li><strong>Iniciantes:</strong> Explicações básicas sobre o que é segurança da informação e como se proteger.</li>
+      <li><strong>Avançado:</strong> Dicas específicas e aprofundadas para usuários mais experientes.</li>
+      <li><strong>Crianças:</strong> Conteúdo lúdico e exemplos relevantes para ensinar boas práticas de forma divertida.</li>
+      <li><strong>Idosos:</strong> Letras maiores, instruções passo a passo e foco em golpes comuns contra esse público.</li>
+    </ul>
+
+    <h3>7.3 Promoção da Cultura de Segurança em Araxá</h3>
+    <p>O objetivo final do portal é não apenas informar, mas também mudar comportamentos. Ele será um recurso confiável para a comunidade local, incentivando a adoção de práticas seguras no dia a dia, como:</p>
+    <ul>
+      <li>Uso de senhas fortes e únicas.</li>
+      <li>Ativação de autenticação multifator (MFA).</li>
+      <li>Cuidado com links e anexos suspeitos.</li>
+      <li>Manutenção de dispositivos e softwares sempre atualizados.</li>
+    </ul>
+    <p>Com isso, espera-se reduzir a incidência de vítimas de cibercrimes na cidade de Araxá.</p>
+
+    <h3>7.4 Recurso Contínuo</h3>
+    <p>O portal será atualizado regularmente com:</p>
+    <ul>
+      <li>Novas informações sobre ameaças emergentes.</li>
+      <li>Dicas de segurança relevantes para o momento.</li>
+      <li>Notícias sobre incidentes locais ou de grande repercussão.</li>
+    </ul>
+    <p>Essas atualizações manterão a comunidade sempre alerta e informada, promovendo uma cultura de segurança contínua.</p>
+  </div>
+</main>
+
+  <footer class="footer">
+    <div class="container mx-auto flex flex-col items-center">
+      <p>&copy; 2025 OnionShield. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

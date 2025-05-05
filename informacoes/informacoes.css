@@ -1,0 +1,97 @@
+body {
+    background-image: url('./fundo.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Cor padrão do texto */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 1400px; /* Div maior para acomodar mais conteúdo */
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .informacoes-content {
+    background-color: #FFFFFF; /* Fundo branco */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .informacoes-content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #14366D;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .informacoes-content h2 {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(20, 54, 109, 0.8);
+    color: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .informacoes-content p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .informacoes-content ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .informacoes-content ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .manga-container {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .manga-container img {
+    width: 100%;
+    max-width: 800px; /* Tamanho maior para mangás ou gráficos */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manga-container p {
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Fonte um pouco maior */
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: rgba(20, 54, 109, 0.9); /* Cor de fundo */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem;
+    border-radius: 4px; /* Bordas arredondadas */
+    display: block; /* Garante que o fundo cubra toda a linha */
+  }
+
